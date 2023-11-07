@@ -26,6 +26,15 @@ print(list1)
 list1.remove('shiva')
 print(list1)
  
- 
+print("len of list1",list1[len(list1)-1]) 
+
+s = '{}'
+i = 0
+while  i < len(s):
+    print("s of i",s[i])
+    i += 1
+    # print(list1.pop())
+    
+print('list is empty')
  
            
